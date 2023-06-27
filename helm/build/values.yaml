@@ -1,0 +1,15 @@
+app:
+  name: my-app4
+  namespace: my-app4-dev
+  cluster: .apps.cluster-tf98g.tf98g.sandbox2224.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/mostmark-janus-demo2/my-app4
+  org: mostmark-janus-demo2
+  name: my-app4
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-app4
+  tag: latest
